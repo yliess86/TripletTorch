@@ -1,0 +1,11 @@
+"""The Init File for triplettorch module
+
+The file imports all classes from the triplettorch module to expose them to
+the user for easier API usage.
+It provides a TripletDataset class as well as a TripletMiner class with two
+common types of Triplet Miner: AllTripletMiner and HardNegativeTripletMiner.
+"""
+from triplettorch.loss import HardNegativeTripletMiner
+from triplettorch.loss import AllTripletMiner
+from triplettorch.data import TripletDataset
+from triplettorch.loss import TripletMiner
