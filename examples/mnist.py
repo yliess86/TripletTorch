@@ -64,7 +64,7 @@ n_sample       = 6
 
 # Triplet Dataset Definition
 tri_train_set  = TripletDataset( train_set.targets.numpy( ), train_set_d, train_set.targets.size( 0 ), n_sample )
-tri_test_set   = TripletDataset(  test_set.targets.numpy( ),  test_set_d,  test_set.targets.size( 0 ),      1 )
+tri_test_set   = TripletDataset(  test_set.targets.numpy( ),  test_set_d,  test_set.targets.size( 0 ),        1 )
 
 # Data Loader
 tri_train_load = DataLoader( tri_train_set,
