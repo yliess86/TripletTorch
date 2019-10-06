@@ -9,3 +9,9 @@ from triplettorch.loss import HardNegativeTripletMiner
 from triplettorch.loss import AllTripletMiner
 from triplettorch.data import TripletDataset
 from triplettorch.loss import TripletMiner
+
+__name__ = "TripletTorch"
+__version__ = "0.1.0"
+__author__ = "yliess"
+__url__ = ""
+__email__ = "hatiyliess86@gmail.com"

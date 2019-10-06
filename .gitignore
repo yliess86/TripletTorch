@@ -110,3 +110,4 @@ dmypy.json
 
 # Ingore Data
 ./data
+\.logins
