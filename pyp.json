@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "name": "TripletTorch",
+        "description": "Triplet Loss Utils for Pytorch Library.",
+        "license": "MIT",
+        "url": ""
+    },
+    "project_authors": [
+        {
+            "name": "yliess",
+            "url": "",
+            "email": "hatiyliess86@gmail.com"
+        }
+    ],
+    "project_vcs": {
+        "code_repository": "https://github.com/TowardHumanizedInteraction/TripletTorch.git",
+        "docker_repository": "",
+        "pypi_repository": "",
+        "exclude_packages": [
+            "test"
+        ],
+        "version": "0.0.0",
+        "ignored_errors": "E121,E123,E126,E226,E24,E704,W503,W504,E501",
+        "release": {
+            "commit_template": "Inscreased version to %s",
+            "docker_tags": "latest,%s",
+            "tag_template": "%s",
+            "package_signing_key": "",
+            "git_signing_key": ""
+        }
+    },
+    "scripts": {
+        "test": ""
+    },
+    "project_requirements": {
+        "python_version": ">=3.4, <4",
+        "python_packages": []
+    }
+}
