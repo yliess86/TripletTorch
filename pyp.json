@@ -3,7 +3,7 @@
         "name": "TripletTorch",
         "description": "Triplet Loss Utils for Pytorch Library.",
         "license": "MIT",
-        "url": ""
+        "url": "https://github.com/TowardHumanizedInteraction/TripletTorch"
     },
     "project_authors": [
         {
