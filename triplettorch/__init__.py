@@ -11,7 +11,7 @@ from triplettorch.data import TripletDataset
 from triplettorch.loss import TripletMiner
 
 __name__ = "TripletTorch"
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __author__ = "yliess"
 __url__ = "https://github.com/TowardHumanizedInteraction/TripletTorch"
 __email__ = "hatiyliess86@gmail.com"
